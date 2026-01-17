@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>cyber shop</title>
+</head>
+<body class="bg-[var(--black-color)] font-[inter] text-white">
+    <!-- Designed by NH Anik and developed by Tahsin Dipto -->
+    <!-- nav -->
+    <nav class="py-2">
+        <div class="container-fluid flex pt-5 px-3">
+            <div class="navbar-brand w-[199px] h-[53px] me-4">
+                <img src="./img/nav/logo.png" alt="logo">
+            </div>
+            <div class="flex justify-between items-center w-[89%]">
+                <div class="relative">
+                    <div class="absolute top-[15px] right-[206px]">
+                        <i class="fa-solid fa-magnifying-glass text-white "></i>
+                    </div>
+                    <input type="text" class="w-[243px] h-[56px] py-[15px] ps-[45px] pe-[15px] ms-25 text-white border border-white rounded-sm focus:outline-none" placeholder="Search NFT">
+                </div>
+                <div>
+                    <ul class="text-[var(--gray-color)] flex gap-[15px]">
+                        <li class="relative nav-li-control">
+                            <div class="star-control absolute top-[-9px] left-[-15px]">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <div class="star-control absolute bottom-[-8px] right-[-9px] ">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <a href="#" class="transition duration-[1s] hover:text-[var(--yellow-color)]">    
+                                Home <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="py-5 px-5 bg-white rounded-[15px] flex flex-col gap-[10px] w-[156px] top-[30px] left-[-14px] absolute nav-dropdown-control">
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Landing preview</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Creative It Solutions</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Data Analysis</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">App Landing</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Saas Technology</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Marketing Startup</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">It Solution</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Software Company</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Digital Agency</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Modern Shop</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative nav-li-control">
+                            <div class="star-control absolute top-[-9px] left-[-15px]">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <div class="star-control absolute bottom-[-8px] right-[-9px] ">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <a href="#" class="transition duration-[1s] hover:text-[var(--yellow-color)]">    
+                                Pages <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="py-5 px-5 bg-white rounded-[15px] flex flex-col gap-[10px] w-[156px] top-[30px] left-[-14px] absolute nav-dropdown-control">
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Home</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Product</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Services</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">Shop</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">single project</a>
+                                </li>
+                                <li class="transition duration-[1s] hover:text-[var(--yellow-color)] hover:bg-[var(--gray-color)]">
+                                    <a href="#" class="text-[12px]">single post</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative nav-li-control">
+                            <div class="star-control absolute top-[-9px] left-[-15px]">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <div class="star-control absolute bottom-[-8px] right-[-9px] ">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <a href="#" class="transition duration-[1s] hover:text-[var(--yellow-color)]">    
+                                Protfolio
+                            </a>
+                        </li>
+                        <li class="relative nav-li-control">
+                            <div class="star-control absolute top-[-9px] left-[-15px]">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <div class="star-control absolute bottom-[-8px] right-[-9px] ">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <a href="#" class="transition duration-[1s] hover:text-[var(--yellow-color)]">    
+                                Blog
+                            </a>
+                        </li>
+                        <li class="relative nav-li-control">
+                            <div class="star-control absolute top-[-9px] left-[-15px]">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <div class="star-control absolute bottom-[-8px] right-[-9px] ">
+                                <img src="./img/stars/star.png" class="w-[15px]" alt="star">
+                            </div>
+                            <a href="#" class="transition duration-[1s] hover:text-[var(--yellow-color)]">    
+                                Contuct
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex items-center">
+                    <p class="text-white">Contact Us : </p>
+                    <div>
+                        <a href="#" class="text-[var(--gray-color)] transition  duration-[1s] hover:text-[var(--yellow-color)]">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-[var(--gray-color)] transition  duration-[1s] hover:text-[var(--yellow-color)]">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-[var(--gray-color)] transition  duration-[1s] hover:text-[var(--yellow-color)]">
+                            <i class="fa-brands fa-square-google-plus"></i>
+                        </a>
+                    </div>
+                    <button class="text-[var(--black-color)] py-[12px] px-[30px] bg-[var(--yellow-color)] text-[14px] rounded-md ms-[15px]  hover:cursor-pointer hover:outline-none">Connect Wallet</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- section-one -->
+    <section class="pt-[150px] text-center relative">
+        <div class="container mx-auto">
+            <div class="absolute top-[124px] right-[322px]">
+                <img src="./img/stars/star2.png" alt="star">
+            </div>
+            <div class="absolute bottom-[26px] left-[322px] hero-star-animation">
+                <img src="./img/stars/star2.png" alt="star">
+            </div>
+            <h1 class="text-[120px] font-bold font-[roboto]">Discover</h1>
+            <div class="grid grid-cols-12 items-center">
+                <div class="col-span-8 text-[120px]  text-[var(--black-color)] text-end text-stroke-control me-4">& Get Super</div>
+                <div class="col-span-3 text-start ps-3 pr-10 font-[roboto] text-[18px] mt-[22px]">The Worlds Largest Digital Marketplace For Crypto Collectibles And Non-Fungible Tokens for worldwide.</div>
+            </div>
+            <h6 class="text-[120px] font-bold font-[roboto]">Digital Assets</h6>
+        </div>
+    </section>
+    <!-- section-two -->
+    <section class="pt-[30px]">
+        <div class="container mx-auto">
+            <div class="flex justify-between">
+                <div class="mt-[150px] relative w-[420px] h-[650px]">
+                    <div class="font-[roboto] absolute top-[4%] right-[50%] translate-1/2 text-center">
+                        <p class="text-[24px] mb-2">Cyber CloneX</p>
+                        <p class="text-[14px] mb-2"><span class="text-[#757479]">Floor:</span> 1.2 ETH</p>
+                    </div>
+                    <img src="./img/section-two/left-carton.png" alt="img" class="w-full h-full rounded-[200px]">
+                </div>
+                <div class="w-[619px] h-[450px] mt-[100px]">
+                    <div class="w-[50px] h-[50px] rounded-[50%] bg-[#cbf54b] mx-auto">
+                        <i class="fa-brands fa-napster text-[--black-color] ms-[50%] mt-[50%] translate-[-50%] text-[var(--black-color)]"></i>
+                    </div>
+                    <div>
+                        <div class="pt-[220px] relative">
+                            <p class="absolute bottom-[0px] left-[20px] text-[18px]">How it Works</p>
+                            <img src="./img/section-two/line-round.png" alt="img" class="absolute bottom-[2px] right-[210px]">
+                        </div>
+                        <div class="w-full flex justify-end mt-1">
+                            <div class="relative w-[250px]">
+                                <a href="#">
+                                    <div class="w-[50px] h-[50px] flex justify-center items-center rounded-[50%] absolute top-[50%] left-[50%] translate-[-50%] bg-white text-[var(--black-color)]">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="./img/section-two/video-pic.png" alt="img" class="w-full rounded-[15px]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[420px] h-[650px] relative">
+                    <div class="font-[roboto] absolute top-[4%] right-[50%] translate-1/2 text-center">
+                        <p class="text-[24px] mb-2">Alex Pablo</p>
+                        <p class="text-[14px] mb-2"><span class="text-[#757479]">Floor:</span> 0.9 ETH</p>
+                    </div>                   
+                    <img src="./img/section-two/right-carton.png" alt="img" class="w-full h-full rounded-[200px]">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-three -->
+    <section class="pt-[100px]">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-center gap-[5px]">
+                <img src="./img/stars/star2.png" alt="star" class="w-[20px]">
+                <p class="text-[14px]">DISCOVER</p>
+                <img src="./img/stars/star2.png" alt="star" class="w-[20px]">
+            </div>
+            <h2 class="text-[50px] text-center font-bold">New NFT <span class="text-stroke-control text-black font-[500]">Arrivals</span></h2>
+            <div class="flex justify-center items-center gap-[24px] my-[70px]">
+                <div class="w-[167px] bg-[#1d1c24] rounded-sm hover:bg-[var(--yellow-color)] transition three-div-control">
+                    <a href="#" class="py-2 px-4 flex items-center gap-[8px]">
+                        <img src="./img/stars/star3.png" alt="star">
+                        <p href="#" class="text-white text-sm three-text-control">All Category</p>
+                    </a>
+                </div>
+                <div class="w-[167px] bg-[#1d1c24] rounded-sm hover:bg-[var(--yellow-color)] transition three-div-control">
+                    <a href="#" class="py-2 px-4 flex items-center gap-[8px]">
+                        <img src="./img/stars/star3.png" alt="star">
+                        <p href="#" class="text-white text-sm three-text-control">Art</p>
+                    </a>
+                </div>
+                <div class="w-[167px] bg-[#1d1c24] rounded-sm hover:bg-[var(--yellow-color)] transition three-div-control">
+                    <a href="#" class="py-2 px-4 flex items-center gap-[8px]">
+                        <img src="./img/stars/star3.png" alt="star">
+                        <p href="#" class="text-white text-sm three-text-control">Virtual Worlds</p>
+                    </a>
+                </div>
+                <div class="w-[167px] bg-[#1d1c24] rounded-sm hover:bg-[var(--yellow-color)] transition three-div-control">
+                    <a href="#" class="py-2 px-4 flex items-center gap-[8px]">
+                        <img src="./img/stars/star3.png" alt="star">
+                        <p href="#" class="text-white text-sm three-text-control">Photography</p>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 gap-[70px]">
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/one-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/two-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/three-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/four-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/five-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/six-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/seven-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-sm three-card-control hover:border-[var(--yellow-color)] transition duration-[0.3s]">
+                    <div class="flex justify-between items-center pt-[10px] pb-[16px] px-[20px]">
+                        <div class="flex items-center gap-[5px]">
+                            <i class="fa-solid fa-heart text-[var(--second-black-color)]"></i>
+                            <span>14</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-sort text-[var(--yellow-color)]"></i>
+                            <span class="">1.00</span>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <div class="absolute top-[50%] left-[50%] bg-[var(--yellow-color)] translate-[-50%] rounded-sm transition duration-[0.3s] three-card-btn-control">
+                            <a href="#" class="text-sm py-[10px] px-[12px] flex items-center gap-[8px] text-[var(--black-color)]">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <img src="./img/section-three/eight-pic.png" alt="img" class="w-full">
+                    </div>
+                    <div class="pt-[20px] px-[25px] pb-[16px]">
+                        <p class="text-xs text-[var(--second-gray-color)]">Highest bid<span class="text-[var(--yellow-color)]"> 6/50</span></p>
+                        <p class="font-medium mt-4 mb-[18px]">Pakora Vision #190</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-clock-rotate-left text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">10+ Place Bit</p>
+                            </div>
+                            <div class="flex items-center gap-[5px]">
+                                <i class="fa-solid fa-users text-[var(--yellow-color)]"></i>
+                                <p class="text-[var(--second-gray-color)]">History</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section four -->
+    <section class="pt-[150px] pb-[200px] relative">
+        <div class="container mx-auto">
+            <div class="absolute bottom-[56px] right-[750px] w-[74px] clap-animation">
+                <img src="./img/section-four/clap.png" alt="clap" class="w-full">
+            </div>
+            <div class="flex items-center justify-center gap-[10px] mb-4">
+                <img src="./img/stars/star2.png" alt="star" class="w-[30px]">
+                <p class=" text-sm">FEATURED</p>
+                <img src="./img/stars/star2.png" alt="star" class="w-[30px]">
+            </div>
+            <p class="text-[50px] text-center font-bold mb-[58px]">Best <span class="text-stroke-control text-black font-[500]">Sellers</span></p>
+            <div class="flex justify-center items-center flex-wrap gap-x-6 gap-y-7">
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/1.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">SnoopDogg</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/2.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Pablo Scober</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/3.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Rosalina Will</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/4.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Helsinki Del</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/5.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Rosalina Will</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/6.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Miranda Halim</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+                <div class="w-[306px] p-5 rounded-lg flex justify-between items-center border border-[var(--black-color)] hover:border-[var(--yellow-color)] transition duration-[0.3s] bg-[var(--bg-black-color)] relative four-card-control">
+                    <picture><img src="./img/section-four/7.jpeg" alt="img" class="w-[65px] h-[65px] rounded-[50%] object-cover"></picture>
+                    <div>
+                        <h6 class="text-[20px] mb-1">Helsinki Del</h6>
+                        <p class="text-sm text-[var(--third-gray-color)] font-light">Rise:<span class="text-[var(--yellow-color)]"> $ 12,000,00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section five -->
+    <section>
+        <div class="bg-[var(--yellow-color)] py-5 flex justify-center items-center gap-[15px]">
+            <img src="./img/stars/star3.png" alt="img" class="w-[30px]">
+            <span class="text-black-stroke-control text-[60px] text-transparent hover:text-black font-[500] capitalize cursor-default">Nft's Great</span>
+            <img src="./img/stars/star3.png" alt="img" class="w-[30px]">
+            <span class="text-black-stroke-control text-[60px] text-transparent hover:text-black font-[500] capitalize cursor-default">be an portfolio author</span>
+            <img src="./img/stars/star3.png" alt="img" class="w-[30px]">
+            <span class="text-black-stroke-control text-[60px] text-transparent hover:text-black font-[500] capitalize cursor-default">Sell your nft</span>
+            <img src="./img/stars/star3.png" alt="img" class="w-[30px]">
+            <span class="text-black-stroke-control text-[60px] text-transparent hover:text-black font-[500] capitalize cursor-default">portfolio an</span>
+        </div>
+    </section>
+    <!-- section six -->
+    <section class="pt-[148px] font-[roboto]">
+        <div class="container mx-auto">
+            <div class="flex justify-center gap-4 mb-6">
+                <img src="./img/stars/star2.png" alt="star" class="w-[30px] h-[36px]">
+                <p class="text-[24px]">PROCESS</p>
+                <img src="./img/stars/star2.png" alt="star" class="w-[30px] h-[36px]">
+            </div>
+            <p class="text-[50px] text-center font-semibold">How It <span class="text-stroke-control text-transparent font-light">Works</span></p>
+            <div class="my-12 flex justify-between">
+                <div>
+                    <div class="py-12 w-[306px] flex flex-col items-center rounded-2xl text-center hover:border-t-1 border-[var(--yellow-color)] hover:bg-[var(--dark-black-color)]">
+                        <img src="./img/section-six/1.png" alt="img" class="w-[82px]">
+                        <h4 class="text-[20px] mt-6 mb-2 ">Connect Wallet</h4>
+                        <p class="text-sm font-[200] text-[var(--six-black-color)] mx-[28px] mt-[16px] mb-[48px]">An cryptocurrency is a digital currency, which</p>
+                        <p class="text-sm text-[var(--yellow-color)] font-[200]">Step 01</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="py-12 mt-12 w-[306px] flex flex-col items-center rounded-2xl text-center hover:border-t-1 border-[var(--yellow-color)] hover:bg-[var(--dark-black-color)]">
+                        <img src="./img/section-six/2.png" alt="img" class="w-[82px]">
+                        <h4 class="text-[20px] mt-6 mb-2 ">Create Collections</h4>
+                        <p class="text-sm font-[200] text-[var(--six-black-color)] mx-[28px] mt-[16px] mb-[48px]">Is an alternative form of payment created use encryption</p>
+                        <p class="text-sm text-[var(--yellow-color)] font-[200]">Step 02</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="py-12 w-[306px] flex flex-col items-center rounded-2xl text-center hover:border-t-1 border-[var(--yellow-color)] hover:bg-[var(--dark-black-color)]">
+                        <img src="./img/section-six/3.png" alt="img" class="w-[82px]">
+                        <h4 class="text-[20px] mt-6 mb-2 ">Add Your NFTs</h4>
+                        <p class="text-sm font-[200] text-[var(--six-black-color)] mx-[28px] mt-[16px] mb-[48px]">Algorithms. The use of encryto technologies</p>
+                        <p class="text-sm text-[var(--yellow-color)] font-[200]">Step 03</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="py-12 mt-12 w-[306px] flex flex-col items-center rounded-2xl text-center hover:border-t-1 border-[var(--yellow-color)] hover:bg-[var(--dark-black-color)]">
+                        <img src="./img/section-six/4.png" alt="img" class="w-[82px]">
+                        <h4 class="text-[20px] mt-6 mb-2 ">Sell Your NFTs</h4>
+                        <p class="text-sm font-[200] text-[var(--six-black-color)] mx-[28px] mt-[16px] mb-[48px]">Means that cryptocurrencies function both</p>
+                        <p class="text-sm text-[var(--yellow-color)] font-[200]">Step 04</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-[var(--third-gray-color)]">
+        </div>
+    </section>
+    <!-- section-seven -->
+    <section class="pt-[100px] px-[12px]">
+        <div class="container mx-auto">
+            <div class="pb-[100px] flex justify-between items-center">
+                <div>
+                    <div class="flex items-center gap-[5px]">
+                        <img src="./img/stars/star2.png" alt="star" class="w-[25px]">
+                        <p class="uppercase">collections</p>
+                    </div>
+                    <h4 class="text-[50px] font-semibold mt-4">Top <span class="text-stroke-control text-transparent font-light">Collection</span></h4>
+                </div>
+                <button class="text-[var(--black-color)] py-[12px] px-[30px] bg-[var(--yellow-color)] text-[14px] rounded-md flex items-center hover:cursor-pointer hover:outline-none"><img src="./img/stars/star3.png" alt="img" class="w-[20px]"> All Collector</button>
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-[12px] ">
+            <div>
+                <div class="flex items-center justify-between">
+                    <h5 class="text-[18px] ">SnoopDogg</h5>
+                    <div class="flex items-center gap-[5px]">
+                        <img src="./img/stars/star2.png" alt="star" class="w-[10px]">
+                        <p>100 <span class="text-[#67666c]">items</span></p>
+                    </div>
+                </div>
+                <div class="w-full py-6 relative">
+                    <div class="w-[74px] h-[74px] absolute top-[-28px] left-[50%] border-[3px] border-[var(--black-color)] rounded-full translate-x-[-50%]">
+                        <img src="./img/section-seven/1.jpeg" alt="img" class="w-full h-full rounded-full object-fill">
+                    </div>
+                    <img src="./img/section-seven/1.jpg" alt="img" class="w-full rounded-lg ">
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <img src="./img/section-seven/2.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/3.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/4.jpg" alt="img" class="w-full object-fill rounded-md">
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center justify-between">
+                    <h5 class="text-[18px] ">SnoopDogg</h5>
+                    <div class="flex items-center gap-[5px]">
+                        <img src="./img/stars/star2.png" alt="star" class="w-[10px]">
+                        <p>100 <span class="text-[#67666c]">items</span></p>
+                    </div>
+                </div>
+                <div class="w-full py-6 relative">
+                    <div class="w-[74px] h-[74px] absolute top-[-28px] left-[50%] border-[3px] border-[var(--black-color)] rounded-full translate-x-[-50%]">
+                        <img src="./img/section-seven/1.jpeg" alt="img" class="w-full h-full rounded-full object-fill">
+                    </div>
+                    <img src="./img/section-seven/1.jpg" alt="img" class="w-full rounded-lg ">
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <img src="./img/section-seven/2.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/3.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/4.jpg" alt="img" class="w-full object-fill rounded-md">
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center justify-between">
+                    <h5 class="text-[18px] ">SnoopDogg</h5>
+                    <div class="flex items-center gap-[5px]">
+                        <img src="./img/stars/star2.png" alt="star" class="w-[10px]">
+                        <p>100 <span class="text-[#67666c]">items</span></p>
+                    </div>
+                </div>
+                <div class="w-full py-6 relative">
+                    <div class="w-[74px] h-[74px] absolute top-[-28px] left-[50%] border-[3px] border-[var(--black-color)] rounded-full translate-x-[-50%]">
+                        <img src="./img/section-seven/1.jpeg" alt="img" class="w-full h-full rounded-full object-fill">
+                    </div>
+                    <img src="./img/section-seven/1.jpg" alt="img" class="w-full rounded-lg ">
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <img src="./img/section-seven/2.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/3.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/4.jpg" alt="img" class="w-full object-fill rounded-md">
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center justify-between">
+                    <h5 class="text-[18px] ">SnoopDogg</h5>
+                    <div class="flex items-center gap-[5px]">
+                        <img src="./img/stars/star2.png" alt="star" class="w-[10px]">
+                        <p>100 <span class="text-[#67666c]">items</span></p>
+                    </div>
+                </div>
+                <div class="w-full py-6 relative">
+                    <div class="w-[74px] h-[74px] absolute top-[-28px] left-[50%] border-[3px] border-[var(--black-color)] rounded-full translate-x-[-50%]">
+                        <img src="./img/section-seven/1.jpeg" alt="img" class="w-full h-full rounded-full object-fill">
+                    </div>
+                    <img src="./img/section-seven/1.jpg" alt="img" class="w-full rounded-lg ">
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <img src="./img/section-seven/2.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/3.jpg" alt="img" class="w-full object-fill rounded-md">
+                    <img src="./img/section-seven/4.jpg" alt="img" class="w-full object-fill rounded-md">
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center pt-[100px]">
+            <div class="grid grid-cols-3 p-[30px] border-[2px] rounded-md border-[var(--yellow-color)] ">
+                <h4 class="text-[30px] font-semibold">Stay In The <span class="text-stroke-control text-transparent font-light">Community</span></h4>
+                <div class="rounded-lg flex items-center gap-6 h-[45px] bg-[#1d1c23] mx-3">
+                    <div class="ps-3 rounded-s-md flex items-center">
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                    <input type="text" class="w-[180px] h-full bg-[#1d1c23] focus:outline-none focus:ring-0 focus:border-0" placeholder="Business email...">
+                    <button class="px-[30px] h-full cursor-pointer rounded-e-md bg-[var(--yellow-color)]">Subscribe</button>
+                </div>
+                <div class="grid grid-cols-6 gap-6 items-center">
+                    <div class="p-[15px] rounded-sm flex justify-center items-center cursor-pointer bg-[#1d1c23]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="p-[15px] rounded-sm flex justify-center items-center cursor-pointer bg-[#1d1c23]">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="p-[15px] rounded-sm flex justify-center items-center cursor-pointer bg-[#1d1c23]">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </div>
+                    <div class="p-[15px] rounded-sm flex justify-center items-center cursor-pointer bg-[#1d1c23]">
+                        <i class="fa-regular fa-circle-user"></i>
+                    </div>
+                    <div class="p-[15px] rounded-sm flex justify-center items-center cursor-pointer bg-[#1d1c23]">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-[100px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2">
+                <div>
+                    <div>
+                        <img src="./img/nav/logo.png" alt="img" class="w-[170px]">
+                    </div>
+                    <p class="text-[#93919b] w-[360px] text-base/[25px] mt-[48px]">
+                        The world’s first and largest digital NFT marketplace for crypto collectibles & non fungible tokens (NFTs). Buy, sell, & discover exclusive digital items.
+                    </p>
+                </div>
+                <div>
+                    <div class="grid grid-cols-3">
+                        <ul class="mb-4">
+                            <li class="my-[48px]">Marketplace</li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Art</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Collectibles</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Domain Names</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Music</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Photography</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Sports</a></li>
+                        </ul>
+                        <ul class="mb-4">
+                            <li class="my-[48px]">My Account</li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Profile</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Favorites</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Watchlist</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">My Collections</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Settings</a></li>
+                        </ul>
+                        <ul class="mb-4">
+                            <li class="my-[48px]">Resources</li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Learn</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Help Center</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Platform Status</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Partners</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Taxes</a></li>
+                            <li class="py-2"><a href="#" class="text-[#93919b] hover:text-[var(--yellow-color)]">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-[var(--third-gray-color)]">
+            <h6 class="text-[18px] text-[#93919b] mt-12 mb-4 text-center">Copyright & Design By <span class="text-[var(--yellow-color)]"> @ThemeCamp</span> - 2022</h6>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: inter;
+    src: url(../font-family/Inter-Regular.otf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../font-family/Roboto-Regular.ttf);
+}
+
+:root{
+    --gray-color: #45434c;
+    --yellow-color: #cef54b;
+    --black-color: #15141A;
+    --second-black-color: #212529;
+    --second-gray-color: #7e7c88;
+    --third-gray-color: #4c4954;
+    --bg-black-color: #16151b;
+    --dark-black-color: #020202;
+    --six-black-color: #89888f;
+}
+
+/* nav-dropdown */
+.nav-dropdown-control{
+    transform: scaleY(0);
+    transition-duration: .3s;
+    transform-origin: top;
+}
+.nav-li-control:hover .nav-dropdown-control{
+    transform: scaleY(1);
+}
+.star-control{
+    opacity: 0;
+    transition-duration: .3s;
+}
+.nav-li-control:hover .star-control{
+    opacity: 1;
+} 
+.text-stroke-control{
+    font-family: inter;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--yellow-color);
+}
+.hero-star-animation{
+    left: 322px;
+    animation: star 7s linear infinite;
+}
+@keyframes star{
+    20%, 40%, 60%, 80%, 100%{
+        left: 322px;
+    }
+    10%, 30%, 50%, 70%, 90%{
+        left: 300px;
+    }
+    50%{
+        opacity: .2;
+    }
+}
+.three-div-control:hover .three-text-control{
+    color: var(--black-color);
+}
+.three-card-btn-control{
+    transform: scaleY(0);
+}
+.three-card-control:hover .three-card-btn-control{
+    transform: scaleY(1);
+}
+.four-card-control::after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) scaleY(0);
+    border: 1px solid var(--yellow-color);
+    width: 264px;
+    height: 15px;
+    border-radius: 10px 10px 0 0;
+    transform-origin: bottom;
+    transition-property: transform, border-color;
+    transition-duration: 0.3s, 0.1s;
+}
+.four-card-control:hover::after{
+    transform: scaleY(1) translateX(-50%);
+}
+.clap-animation{
+    animation: clap 4s linear infinite;
+}
+@keyframes clap{
+    50%{
+        transform: translateY(-50px);
+    }
+}
+.text-black-stroke-control{
+    font-family: inter;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--black-color);
+}
+
